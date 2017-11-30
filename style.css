@@ -1,0 +1,119 @@
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+
+.navbar.navbar-default {
+    background-color: #FFFFFF;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  margin: 0px;
+  height: 50px;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.body {
+  height: 100%;
+}
+
+.navbar-nav > li> a:hover {
+  color: #D44D3D !important;
+}
+
+.img-rounded {
+    display: block;
+    margin: auto;
+    width: 20%;
+    text-align: center;
+  padding-top: 1%;
+}
+
+.imgtitle{
+    font-family: Times New Roman, Georgia;
+    text-align: center;
+    font-size: 2em;
+}
+.header1{
+    font-family: Times New Roman, Georgia;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 15%;
+}
+.txt, .header{
+    font-family: Times New Roman, Georgia;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 5%;
+}
+.para{
+    font-family: Times New Roman, Georgia;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.fa {
+  text-align: center; 
+}
+
+.fa-github {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+
+.fa-linkedin-square {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+
+.fa-youtube {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+
+
+.icons{
+  text-align: center;
+  padding:0px;
+  border-width: 0px;
+}
+
+.fa-github:hover {
+    background-color: #999999;
+    border-width: 0px;
+}
+
+.fa-linkedin-square:hover {
+    background-color: #999999;
+    border-width: 0px;
+}
+
+.fa-youtube:hover {
+    background-color: #999999;
+    border-width: 0px;
+}
+
+.icon:hover {
+      margin: 6px, 6px, 6px, 6px;
+}
